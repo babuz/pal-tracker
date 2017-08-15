@@ -16,7 +16,7 @@ resources:
     organization: {{cf-org}}
     space: sandbox
     
- jobs:
+jobs:
 - name: build-and-deploy
   plan:
   - get: pal-tracker
